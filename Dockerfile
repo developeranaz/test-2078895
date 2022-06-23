@@ -1,4 +1,5 @@
 FROM developeranaz/qbittorrent-to-rclone:superbeta
+ENV DEBIAN_FRONTEND=noninteractive
 RUN export PATH=$PATH:/usr/local/go/bin
 #emergency envs
 ARG username="developeranaz"
